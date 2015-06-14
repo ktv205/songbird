@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contents_drawer_textview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="@android:style/TextAppearance.Medium"
+    android:drawableLeft="@drawable/ic_launcher"
+    android:drawableStart="@drawable/ic_launcher"
+    android:padding="5dp" />

@@ -1,0 +1,24 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch krishna
+# Changes to be committed:
+#	modified:   bin/classes/com/cs9033/songbird/R$attr.class
+#	modified:   bin/classes/com/cs9033/songbird/R$dimen.class
+#	modified:   bin/classes/com/cs9033/songbird/R$id.class
+#	modified:   bin/classes/com/cs9033/songbird/R$layout.class
+#	modified:   bin/classes/com/cs9033/songbird/R$menu.class
+#	modified:   bin/classes/com/cs9033/songbird/R$string.class
+#	modified:   bin/classes/com/cs9033/songbird/R$style.class
+#	modified:   gen/com/cs9033/songbird/R.java
+#	modified:   project.properties
+#	modified:   res/layout/activity_filter.xml
+#	modified:   src/com/cs9033/songbird/controllers/FilterActivity.java
+#	modified:   src/com/cs9033/songbird/controllers/MainActivity.java
+#	modified:   src/com/cs9033/songbird/controllers/ProfileActivity.java
+#	modified:   src/com/cs9033/songbird/controllers/RecorderActivity.java
+#	modified:   src/com/cs9033/songbird/controllers/SoundCreateActivity.java
+#	modified:   src/com/cs9033/songbird/controllers/UplaodActivity.java
+#	modified:   src/com/cs9033/songbird/models/SongBirdPreferences.java
+#
+

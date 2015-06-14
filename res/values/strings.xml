@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SongBird</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">drawer opened</string>
+    <string name="close">drawer closed</string>
+    <string name="uplaod">upload</string>
+    <string name="submit">submit</string>
+    <string name="record">record</string>
+    <string name="google_auth_des">signup/signin with google</string>
+    <string name="facebook_auth_des">signup/signin with facebook</string>
+    <string name="or">or</string>
+    <string name="authentication_activity_des">authentication</string>
+    <string name="facebook_app_id">1580793122151914</string>
+    <string name="min_value_seekbar">10</string>
+    <string name="RecordActivity">Record</string>
+    <string name="midi">MIDI</string>
+    <string name="recorded">RECORDED</string>
+    <string name="Name">signin/signup</string>
+    <string name="playpause">play/pause button</string>
+    <string name="share">share</string>
+</resources>

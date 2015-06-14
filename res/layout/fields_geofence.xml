@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/latitude1_fields"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="latitude" />
+
+    <EditText
+        android:id="@+id/longitude1_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="longitude" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/radius1_fields"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="radius" />
+
+    <EditText
+        android:id="@+id/latitude2_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="latitude" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/longitude2_fields"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="longitude" />
+
+    <EditText
+        android:id="@+id/radius2_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="radius" >
+    </EditText>
+
+    <Button
+        android:id="@+id/button_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+
+</LinearLayout>

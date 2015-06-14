@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs9033.songbird"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.read_gservices" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cs9033.songbird.controllers.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlaySong"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.SoundCreateActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.GeoFences"
+            android:label="geo" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.ListSongs"
+            android:label="ListSongs" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.UplaodActivity"
+            android:icon="@drawable/ic_launcher" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.AuthenticationActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/authentication_activity_des" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.RecorderActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/RecordActivity" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="title_facebook_login" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.ProfileActivity"
+            android:label="title_profile_activity" >
+        </activity>
+        <activity
+            android:name="com.cs9033.songbird.controllers.ViewFilesActivity"
+            android:label="title_view_files_activity" >
+        </activity>
+        <activity android:name="com.cs9033.songbird.controllers.FilterActivity" >
+        </activity>
+
+        <service
+            android:name="com.cs9033.songbird.controllers.ReceiveTransitionsIntentService"
+            android:exported="false"
+            android:label="@string/app_name" >
+        </service>
+        <service
+            android:name="com.cs9033.songbird.controllers.ProfilePicService"
+            android:exported="false"
+            android:label="@string/app_name" >
+        </service>
+        <service android:enabled="true"
+            android:name="com.cs9033.songbird.controllers.PlaySongService">
+        </service>
+        <receiver
+            android:name="com.cs9033.songbird.controllers.GeoFenceBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="something" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBZmlmZ_1ZxfmZjDYdKpi9xAO3u2unwHO8" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>
